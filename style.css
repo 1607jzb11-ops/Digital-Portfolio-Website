@@ -427,20 +427,14 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
-    .sub-title {
-        font-size: 35px;           
-        word-break: break-word;    
-        max-width: 100%;           
-        line-height: 1.2;
-        text-align: center;      
+     .sub-title{
+        font-size: 35px !important;
+        word-break: break-word;
+        max-width: 100%;
+        text-align: center;
     }
     .container {
-        padding: 10px 5%;         
-        max-width: 100%;
-        overflow: hidden;
-    }
-    #portfolio .container {
-        padding: 20px 10px;       
+        padding: 10px 5%;
     }
 }
 .sub-title {
