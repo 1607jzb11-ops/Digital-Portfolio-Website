@@ -428,7 +428,11 @@ nav .fas{
         font-size: 14px;
     }
     .sub-title {
-        font-size: 45px;       
+        font-size: 35px;           
+        word-break: break-word;    
+        max-width: 100%;           
+        line-height: 1.2;
+        text-align: center;      
     }
 }
 .sub-title {
