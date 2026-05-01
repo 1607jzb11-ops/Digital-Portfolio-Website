@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e8fb63722.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet"></head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="./comp-logo.png" class="logo" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <div class="split-screen">
+        <div class="left-side">
+            <div class="hero-card">
+            <h1>Driven By <span>Experience.</span></h1>
+            <h2>Defined By <span>Results.</span></h2>
+            <p>A collaborative portfolio showcasing our talents,<br>
+            hobbies, achievements, and creativity as students of CSI</p>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="image-placeholder">(image)</div>
+        <img src="./comp-logo.png" class="small-logo" alt="eCOMPT Logo">
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./about-us.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>This digital portfolio isn’t just a place to store schoolwork, 
+                    it’s where all our hard work comes together in one space you can actually explore and appreciate. 
+                    We created this because we saw how projects and achievements often end up 
+                    scattered and overlooked, so we built a platform where everything is organized, visually presented, and easy to navigate. 
+                    Here, you’ll find academic work, projects, and accomplishments displayed in a way that truly show the value of each work, 
+                    whether you’re a classmate, teacher, parent, or visitor. 
+                    We’ve also experienced the same struggle of having work scattered and hard to present, which is why our goal is to make it easier for students to access, 
+                    keep things well-organized, and make their outputs genuinely worth exploring.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Danielle')">Danielle</p>
+                        <p class="tab-links"  onclick="opentab('David')">David</p>
+                        <p class="tab-links"  onclick="opentab('Deborah')">Deborah</p>
+                        <p class="tab-links"  onclick="opentab('Lyelle')">Lyelle</p>
+                        <p class="tab-links"  onclick="opentab('Julian')">Julian</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Danielle">
+                        <ul>
+                            <li><span>Name</span><br>Danielle Nichole V. Villegas</li>
+                            <li><span>Bio</span><br>Sample bio1</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="David">
+                        <ul>
+                            <li><span>Name</span><br>Mark David A. Plaza</li>
+                            <li><span>Bio</span><br>Sample bio2</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Deborah">
+                        <ul>
+                            <li><span>Name</span><br>Louise Deborah M. Paller</li>
+                            <li><span>Bio</span><br>Sample bio3</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Lyelle">
+                        <ul>
+                            <li><span>Name</span><br>Lyelle Christine S. Brosas</li>
+                            <li><span>Bio</span><br>Sample bio4</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Julian">
+                        <ul>
+                            <li><span>Name</span><br>Julian Zachary Bactad</li>
+                            <li><span>Bio</span><br>Sample bio5</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Hobbies & Interests</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Gaming</h2>
+                <p>Playing interactive digital or physical games 
+                for entertainment, competition, or skill-building.</p>
+                <a href="https://www.roblox.com">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-trophy"></i>
+                <h2>Sports</h2>
+                <p>Physical activities or games that 
+                involve skill, competition, and often teamwork.</p>
+                <a href="https://www.uaap.org">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Music</h2>
+                <p>The art of creating or enjoying sounds 
+                through rhythm, melody, and harmony.</p>
+                <a href="https://open.spotify.com">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-palette"></i>
+                <h2>Design</h2>
+                <p>The process of planning and creating visuals 
+                or structures to communicate ideas.</p>
+                <a href="https://www.canva.com">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-microchip"></i>
+                <h2>Programming</h2>
+                <p>Writing instructions in a programming language 
+                to create software, apps, or websites.</p>
+                <a href="https://code.visualstudio.com">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio"> 
+    <div class="container">
+        <h1 class="sub-title">Achievements</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./work-1.jpg">
+                <div class="layer">
+                    <h3>POGI</h3>
+                    <p>Donato Antonio Laxa Pangilinan is a Filipino actor, model, presenter, singer and video jockey. 
+                        He started his career in 2016 as a video jockey for the pay TV channel Myx. 
+                        He made his film debut in the Regal Films production Walwal.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-2.jpg">
+                <div class="layer">
+                    <h3>GWAPO</h3>
+                    <p>Joshua Garcia is a Filipino actor. 
+                        He began his professional acting career in 2015 after being 
+                        part of the reality show Pinoy Big Brother: All In as a contestant.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-3.jpg">
+                <div class="layer">
+                    <h3>HANDSOME</h3>
+                    <p>Daniel John Elago Ford, known professionally as Daniel Padilla, is a Filipino actor and singer. 
+                        He is a recipient of multiple accolades across television, film, and music, 
+                        including the FAMAS Award for Best Actor and PMPC Star Award for Movie Actor of the Year, 
+                        as well as three World Music Awards nominations</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p></i><a href="https://gmail.com"><i class="fa-solid fa-paper-plane"></i></a>@comptdpwgmail.org</p>
+                <p><i class="fa-solid fa-phone"></i>09091853610</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://discord.com"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="./Project-Plan-for-Web-Design.docx" download class="btn btn2">Download Project Plan</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © COMPT created by <i class="fa-solid fa-heart"></i> Grade 9</p>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+
+<script type="text/javascript">
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
